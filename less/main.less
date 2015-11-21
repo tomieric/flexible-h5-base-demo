@@ -1,0 +1,145 @@
+@import "reset";
+@import "iconfont";
+
+@primary: #371d49;
+@fontColor-heading: #333333;
+@fontColor-base: #666666;
+@fontColor-vice: @fontColor-base + 333333;
+@header-height:88px;
+
+body {
+	font-family: 'Microsoft Yahei';
+	color: @fontColor-base;
+	line-height: 1.5;
+}
+
+.header{
+	position: relative;
+	height: @header-height;
+	line-height: 1;
+	background: @primary;
+	color: #fff;
+
+	a{
+		color: #fff;
+	}
+
+	.iconfont {
+		font-size: 40px;
+	}
+
+	&-left {
+		position: absolute;
+		left: 30px;
+		top: 0;
+		height: @header-height;
+		line-height: @header-height;
+		font-size: 24px;
+	}
+
+	&-right {
+		position: absolute;
+		right: 30px;
+		top: 0;
+		height: @header-height;
+		line-height: @header-height;
+	}
+
+	&-title {
+		margin: 0 30%;
+		height: @header-height;
+
+		display: -webkit-box;
+		-webkit-box-align: center;
+		-wekit-box-pack: center;
+	}
+}
+
+.logo {
+	margin: 0 auto;
+	width: 176px;
+	height: 64px;
+	background: url('../images/logo.png') no-repeat;
+	background-size: 100% auto;
+}
+
+.banner {
+	position: relative;
+	padding-top: percentage(200 / 640);
+	background: #eee;
+
+	> img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.image{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.chapter {
+	padding: 30px;
+
+	line-height: 42 / 24;
+
+	> h2 {
+		position: relative;
+		margin-bottom: 5px;
+		padding-left: 20px;
+		color: @fontColor-heading;
+		font-size: 28px;
+
+		&:before {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			content: '';
+			width: 4px;
+			height: 28px;
+			transform: translateY(-50%);
+			background: @fontColor-heading;
+		}
+	}
+
+	p{
+		margin-bottom: 40px;
+		text-indent: 2em;
+	}
+}
+
+.footer {
+	background: @primary;
+	padding: 20px;
+
+	> ul {
+		display: -webkit-box;
+		width: 100%;
+
+		> li {
+			margin: 20px 0;
+			-webkit-box-flex: 1;
+			padding: 0 14px;
+			// font-size: 20px;
+			line-height: 1;
+			text-align: center;
+
+			-webkit-box-orient: vertical;
+			-webkit-box-pack: center;
+			-webkit-box-align: center;
+
+			border-right: 1px solid #fff;
+
+			> a{
+				color: #fff;
+			}
+
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+}
