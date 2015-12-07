@@ -556,8 +556,16 @@ body {
   color: #fff;
 }
 
-.header .iconfont {
-  font-size: 0.533333rem;
+[data-dpr="1"] .header .iconfont {
+  font-size: 20px;
+}
+
+[data-dpr="2"] .header .iconfont {
+  font-size: 40px;
+}
+
+[data-dpr="3"] .header .iconfont {
+  font-size: 60px;
 }
 
 .header-left {
@@ -566,7 +574,18 @@ body {
   top: 0;
   height: 1.173333rem;
   line-height: 1.173333rem;
-  font-size: 0.32rem;
+}
+
+[data-dpr="1"] .header-left {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .header-left {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .header-left {
+  font-size: 36px;
 }
 
 .header-right {
@@ -621,7 +640,18 @@ body {
   margin-bottom: 0.066667rem;
   padding-left: 0.266667rem;
   color: #333333;
-  font-size: 0.373333rem;
+}
+
+[data-dpr="1"] .chapter > h2 {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .chapter > h2 {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .chapter > h2 {
+  font-size: 42px;
 }
 
 .chapter > h2:before {
