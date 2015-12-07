@@ -14,4 +14,13 @@
    直接访问index.html
 
 
+## 相关知识
+
+> [flexible.js](https://github.com/amfe/ml)
+
+> [px2rem](https://github.com/songsiqi)   
+
+
+## demo
+
 > 在线预览 [http://tomieric.github.io/demo/flexible-h5-base-demo/](http://tomieric.github.io/demo/flexible-h5-base-demo/)
