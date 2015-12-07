@@ -12,3 +12,6 @@
 ## 浏览
 
    直接访问index.html
+
+
+> 在线预览 [http://tomieric.github.io/demo/flexible-h5-base-demo/](http://tomieric.github.io/demo/flexible-h5-base-demo/)
