@@ -23,4 +23,4 @@
 
 ## demo
 
-> 在线预览 [http://tomieric.github.io/demo/flexible-h5-base-demo/](http://tomieric.github.io/demo/flexible-h5-base-demo/)
+> 在线预览 [http://tomieric.github.io/old-blog/demo/flexible-h5-base-demo/](http://tomieric.github.io/old-blog/demo/flexible-h5-base-demo/)
